@@ -1,10 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-
+import Box from './components/Lab.jsx';
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <Box name="tufail"/>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
