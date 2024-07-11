@@ -1,7 +1,11 @@
 import React from "react";
 import "./style.css";
-const Todoitem: React.FC = () => {
-  return <li>this is item</li>  
+
+interface TodoItemProps {
+  title:string;
+}
+const Todoitem: React.FC<TodoItemProps> = ({title}) => {
+  return <li>{title}</li>  
 };
 
 

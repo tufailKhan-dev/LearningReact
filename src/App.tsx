@@ -1,11 +1,18 @@
 import React from "react";
 import Todo from "./components/Todo/index"
 const App: React.FC = () => {
-
+const myTodoitem = [
+{
+    id:1,
+    title: 'I need to finish',
+},
+{
+    id:2,
+    title: 'i am second',
+}
+];
 return <div>
-    <Todo/>
-    <Todo/>
-    <Todo/>
+    <Todo items={myTodoitem}/>
 </div>
 
 };
